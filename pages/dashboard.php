@@ -17,9 +17,21 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body bgcolor="#1e2124">
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
     <div class="container">
         <h1 class="h1-login">Selamat datang, <?php echo $_SESSION['username']; ?>!</h2>
-        <a href="read.php" class="btn-login">Table</a>
+        <a href="read.php" class="btn-login">Table View</a>
         <a href="create.php" class="btn-login">Create</a>
         <a href="update.php" class="btn-login">Update</a>
         <a href="logout.php" class="btn-logout">Sign Out</a>

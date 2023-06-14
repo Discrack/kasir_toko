@@ -22,6 +22,15 @@ $items = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body bgcolor="#1e2124">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <div class="container">
         <h1 class="h1-login">Daftar Item</h1>
         <a href="dashboard.php" class="btn-logout">Back</a>
