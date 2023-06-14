@@ -28,6 +28,15 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body bgcolor="#1e2124">
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="container">
         <h1 class="h1-login">Tambah Item</h1>
         <form method="POST" action="">
