@@ -48,7 +48,7 @@ if (isset($_POST['login'])) {
                 <div class="error-msg"><?php echo $error_msg; ?></div>
             <?php } ?>
             <h5 class="h1-red">No Login No Access</h5>
-            <h5 class="h1-red">Project yang dibuat semata mata untuk mendapatkan nilai</h5>
+            <h5 class="h1-red">Project yang dibuat semata mata untuk mendapatkan nilai, dan memenuhi tugas formatif sebelum UAS</h5>
             <form method="POST">
                 <div class="form-group">
                     <input type="text" name="username" required placeholder="Username" autofocus>
