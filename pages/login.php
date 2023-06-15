@@ -58,7 +58,7 @@ if (isset($_POST['login'])) {
                 </div>
                 <input type="reset" value="Reset" class="btn-logout">
                 <input type="submit" name="login" value="Sign In" class="btn-login">
-                <a href="/pages/dashboard.php" class="btn-logout">Dashboard</a>
+                <a href="../pages/dashboard.php" class="btn-logout">Dashboard</a>
             </form>
         </div>
     </div>
