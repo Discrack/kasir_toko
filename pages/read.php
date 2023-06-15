@@ -46,7 +46,7 @@ $items = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <?php $i = 1; ?>
             <?php foreach ($items as $item) { ?>
                     <tr>
-                    <td align="center"><?= $i; ?></td>
+                    <td align="center"><?= $i++; ?></td>
                     <td align="center"><?php echo $item['item_name']; ?></td>
                     <td align="center"><?php echo $item['price']; ?></td>
                     </tr>
