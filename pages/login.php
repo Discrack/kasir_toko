@@ -12,7 +12,7 @@ if (isset($_POST['login'])) {
 
     if (mysqli_num_rows($result) > 0) {
         $_SESSION['username'] = $username;
-        header('Location: dashboard.php');
+        header('Location: ../pages/dashboard.php');
     } else {
         $error_msg = "Username atau password salah! masukin yang bener!";
     }
