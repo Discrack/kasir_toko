@@ -14,7 +14,7 @@ if (isset($_POST['login'])) {
         $_SESSION['username'] = $username;
         header('Location: dashboard.php');
     } else {
-        $error_msg = "Username atau password salah! masukin yang bener cil!";
+        $error_msg = "Username atau password salah! masukin yang bener!";
     }
 }
 ?>
