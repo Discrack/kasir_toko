@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once '../includes/config.php';
-error_reporting(1);
+error_reporting(0);
 
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
