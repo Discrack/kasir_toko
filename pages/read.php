@@ -36,7 +36,7 @@ $items = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <a href="dashboard.php" class="btn-logout">Back</a>
         <br>
         <br>
-        <table border="1" cellpadding="9" class="">
+        <table border="1" cellpadding="10" class="">
             <tr>
                 <th>No</th>
                 <th>Nama Item</th>
